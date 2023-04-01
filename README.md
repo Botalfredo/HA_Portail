@@ -1,7 +1,6 @@
 # Projet portail
 
-Les documents contenus dans ce git permette de connecter un ESP a un serveur MQTT distant. Le projet permet de piloter un portail à distance via l'interface electronique suivante.
-
+Les documents contenus dans ce git permette de connecter un ESP a un serveur MQTT distant il servira d'exemple pour des trames subscibes et publis . Le projet permet de piloter un portail à distance via l'interface electronique suivante.
 ![Schematic_Home assistant mqtt relay_2023-04-01](https://user-images.githubusercontent.com/68150357/229284383-ee89f37b-43ed-45c6-8685-3892d9c4fec8.png)
 
 Le code communique sur le sujet /portail avec 4 messages.
