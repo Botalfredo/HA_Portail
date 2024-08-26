@@ -10,7 +10,7 @@
 //#define wifi_ssid1 "Freebox-38B461"
 //#define wifi_password1 "cordi-transmutat9-dimidiis-famino"
 
-#define mqtt_server "83.205.178.99" // your HA IP, example 192.XX.XXX.XX
+#define mqtt_server "90.19.66.96" 
 #define mqtt_user "MQTT_BOT"
 #define mqtt_password "WZfe5kmZptP5Dun"
 
@@ -123,9 +123,5 @@ void loop() {
   long now = millis();
   if (now - lastMsg > 5000) { // publish frequency
      lastMsg = now;
-
-      //Serial.print("Temperature:");
-      //Serial.println(String(1).c_str());
-      //client.publish(temperature_topic, String(1).c_str(), true);
   }
 }
